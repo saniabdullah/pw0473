@@ -1,0 +1,8 @@
+.on, th, td{
+	border: 1px solid black;
+}
+
+
+.on{
+	align-self: center;
+}
