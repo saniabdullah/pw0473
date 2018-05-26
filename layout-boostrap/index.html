@@ -6,31 +6,6 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 	<title></title>
-
-	<script type="text/javascript">
-		var app =angulas.module("MyApp", ["ngRoute"]);
-		app.config(function($routeProvider){
-		$routeProvider.When('/',{
-			templateUrl;'main.htm'
-		})
-		.When('/waetrher',{
-			templateUrl;'waetrher.htm'
-		})
-		.When('/contact',{
-			templateUrl;'contact.htm'
-		})
-
-	});
-		app.controller('waetrherCtrl', function($scope){
-			$scope.title = "Waetrher of london";
-			});
-		app.controller('aboutCtrl', function($scope){
-			$scope.num=10*5.2;
-			});
-
-
-
-	</script>
 </head>
 <body>
 	<div class="container">
@@ -49,8 +24,8 @@
 		 	<div class="col-12">
 		 		<ul >
 
-				<li><a href="#!main"><i class="fas fa-home"></i>Home</a></li>
-				<li><a href="#!waetrher"><i class="fas fa-hand-point-right"></i>About</a></li>
+				<li><a href=""><i class="fas fa-home"></i>Home</a></li>
+				<li><a href=""><i class="fas fa-hand-point-right"></i>About</a></li>
 				<li><a href=""><i class="fab fa-product-hunt"></i>Product</a></li>
 				<li><a href=""><i class="fas fa-gamepad"></i>Game</a></li>
 
